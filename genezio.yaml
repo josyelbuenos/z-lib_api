@@ -1,0 +1,9 @@
+frontend:
+    path: ./
+    publish: ""
+    scripts:
+        build: python index.js
+        deploy: pip install -r requirements.txt
+name: j-ebooks
+region: us-east-1
+yamlVersion: 2
